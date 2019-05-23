@@ -1,0 +1,921 @@
+harshil@harshil-Lenovo-G50-80:~$ ls
+ a.sh             delivery              dj          examples.desktop   kasyap_python   Pictures   snap        Videos
+ bharat_jagdish   delivery-master.zip   Documents   GNS3               k.zip           Public     SQL_       'VirtualBox VMs'
+ bots             Desktop               Downloads   instagram_python   Music           selenium   Templates
+harshil@harshil-Lenovo-G50-80:~$ cd kasyap_python/
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ ls
+a.py  a.txt  kp.py  spam  test.py  test.pyc  t.py  z.py
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ 
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ ls
+a.py  a.txt  kp.py  spam  test.py  test.pyc  t.py  z.py
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ vim ^C
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ ls
+a.py  a.txt  kp.py  spam  test.py  test.pyc  t.py  z.py
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ ls
+a.py  a.txt  kp.py  spam  test.py  test.pyc  t.py  z.py
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ 
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ 
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ 
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ 
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ vim prog1.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ vim prog1.py^C
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ python3.6
+Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
+[GCC 8.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = "I am harshil patel"
+>>> 
+>>> 'harshil' in a
+True
+>>> a = "I am Harshil patel"
+>>> 'harshil' in a
+False
+>>> a = "I am darshan patel"
+>>> q = 'harshil' in a 
+>>> q1 = 'darshan' in a 
+>>> 
+>>> q
+False
+>>> q1
+True
+>>> q or q1
+True
+>>> 
+>>> 
+>>> import re
+>>> 
+>>> 
+>>> dir(re)
+['A', 'ASCII', 'DEBUG', 'DOTALL', 'I', 'IGNORECASE', 'L', 'LOCALE', 'M', 'MULTILINE', 'RegexFlag', 'S', 'Scanner', 'T', 'TEMPLATE', 'U', 'UNICODE', 'VERBOSE', 'X', '_MAXCACHE', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_alphanum_bytes', '_alphanum_str', '_cache', '_compile', '_compile_repl', '_expand', '_locale', '_pattern_type', '_pickle', '_subx', 'compile', 'copyreg', 'enum', 'error', 'escape', 'findall', 'finditer', 'fullmatch', 'functools', 'match', 'purge', 'search', 'split', 'sre_compile', 'sre_parse', 'sub', 'subn', 'template']
+>>> 
+>>> re.compile
+<function compile at 0x7fe2ce1c1730>
+>>> re.compile("harshil")
+re.compile('harshil')
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("harshil")
+>>> dir(p)
+['__class__', '__copy__', '__deepcopy__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'findall', 'finditer', 'flags', 'fullmatch', 'groupindex', 'groups', 'match', 'pattern', 'scanner', 'search', 'split', 'sub', 'subn']
+>>> 
+>>> 
+>>> p.search(a)
+>>> a
+'I am darshan patel'
+>>> p = re.compile("darshan")
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a = "I am darshan patel
+"  File "<stdin>", line 1
+    a = "I am darshan patel
+                          ^
+SyntaxError: EOL while scanning string literal
+>>> a = "I am darshan patel"
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a = "I am darshan patel"
+>>> 
+>>> 
+>>> 
+>>> 
+>>> import re
+>>> 
+>>> p = re.compile("darshan")
+>>> 
+>>> p.search(a)
+<_sre.SRE_Match object; span=(5, 12), match='darshan'>
+>>> r = p.search(a)
+>>> dir(r)
+['__class__', '__copy__', '__deepcopy__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'end', 'endpos', 'expand', 'group', 'groupdict', 'groups', 'lastgroup', 'lastindex', 'pos', 're', 'regs', 'span', 'start', 'string']
+>>> r.group()
+'darshan'
+>>> r.start
+<built-in method start of _sre.SRE_Match object at 0x7fe2cb0c9440>
+>>> r.start()
+5
+>>> r.end()
+12
+>>> a
+'I am darshan patel'
+>>> a[5:12]
+'darshan'
+>>> 
+>>> 
+>>> 
+>>> a
+'I am darshan patel'
+>>> p = re.compile("(darshan|harshil)")
+>>> 
+>>> 
+>>> p.search(a)
+<_sre.SRE_Match object; span=(5, 12), match='darshan'>
+>>> a = "I am harshil patel"
+>>> p.search(a)
+<_sre.SRE_Match object; span=(5, 12), match='harshil'>
+>>> a = "I am Harshil patel"
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p.search(a)
+>>> q = p.search(a)
+>>> print(q)
+None
+>>> 
+>>> 
+>>> p = re.compile("(darshan|harshil)")
+>>> p = re.compile("(darshan|harshil)", re.I)
+>>> 
+>>> 
+>>> a
+'I am Harshil patel'
+>>> p.search(a)
+<_sre.SRE_Match object; span=(5, 12), match='Harshil'>
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("(darshan|harshil)", re.I)
+>>> a = "I am HaRsHiL"
+>>> 
+>>> p.search(a)
+<_sre.SRE_Match object; span=(5, 12), match='HaRsHiL'>
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("(darshan|harshil)", re.I)
+>>> p.search(a)
+<_sre.SRE_Match object; span=(5, 12), match='HaRsHiL'>
+>>> a="I am hashil patel
+  File "<stdin>", line 1
+    a="I am hashil patel
+                       ^
+SyntaxError: EOL while scanning string literal
+>>> a="""I am hashil patel
+... I am a software engineer
+... I am working in sophos 
+... """
+>>> 
+>>> 
+>>> 
+>>> a
+'I am hashil patel\nI am a software engineer\nI am working in sophos \n'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p.search(a)
+>>> a
+'I am hashil patel\nI am a software engineer\nI am working in sophos \n'
+>>> p = re.compile("(darshan|harshil)", re.I)
+>>> 
+>>> 
+>>> p.search(a)
+>>> p = re.compile("sophos", re.I)
+>>> 
+>>> 
+>>> 
+>>> p.search(a)
+<_sre.SRE_Match object; span=(59, 65), match='sophos'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a = "TCS share price is 2210"
+>>> 
+>>> p = re.compile("2210")
+>>> p.search(a)
+<_sre.SRE_Match object; span=(19, 23), match='2210'>
+>>> a = "TCS share price is 2211"
+>>> p.search(a)
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a
+'TCS share price is 2211'
+>>> p = re.compile("[0-9])
+  File "<stdin>", line 1
+    p = re.compile("[0-9])
+                         ^
+SyntaxError: EOL while scanning string literal
+>>> p = re.compile("[0-9]")
+>>> p.search(a)
+<_sre.SRE_Match object; span=(19, 20), match='2'>
+>>> p = re.compile("[012]")
+>>> p.search(a)
+<_sre.SRE_Match object; span=(19, 20), match='2'>
+>>> p = re.compile("[01]")
+>>> 
+>>> 
+>>> p.search(a)
+<_sre.SRE_Match object; span=(21, 22), match='1'>
+>>> p = re.compile("[abz]")
+>>> a
+'TCS share price is 2211'
+>>> p.search(a)
+<_sre.SRE_Match object; span=(6, 7), match='a'>
+>>> a[6:7]
+'a'
+>>> 
+>>> 
+>>> 
+>>> a
+'TCS share price is 2211'
+>>> p = re.compile("[0-9]")
+>>> p.search(a)
+<_sre.SRE_Match object; span=(19, 20), match='2'>
+>>> 
+>>> 
+>>> a = "T1CS share price is 2211"
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p.search(a)
+<_sre.SRE_Match object; span=(1, 2), match='1'>
+>>> a = "TCS share price is 2211"
+>>> 
+>>> 
+>>> 
+>>> a
+'TCS share price is 2211'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("[0-9]+") 
+>>> p.search("TCS share price is ")
+>>> p.search("TCS share price is 0")
+<_sre.SRE_Match object; span=(19, 20), match='0'>
+>>> p.search("TCS share price is 0123")
+<_sre.SRE_Match object; span=(19, 23), match='0123'>
+>>> p.search("TCS share price is 012313548917841692346192346912463914")
+\<_sre.SRE_Match object; span=(19, 55), match='012313548917841692346192346912463914'>
+>>> 
+>>> 
+>>> 
+>>> p.search("T1CS is share is 123")
+<_sre.SRE_Match object; span=(1, 2), match='1'>
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("9+") 
+>>> p.search("TCS share price is 012313548917841692346192346912463914")
+<_sre.SRE_Match object; span=(28, 29), match='9'>
+>>> p.search("TCS share price is 123")
+>>> p.search("TCS share price is 1239")
+<_sre.SRE_Match object; span=(22, 23), match='9'>
+>>> p.search("TCS share price is 12399")
+<_sre.SRE_Match object; span=(22, 24), match='99'>
+>>> p.search("TCS share price is 123999999999")
+<_sre.SRE_Match object; span=(22, 31), match='999999999'>
+>>> p.search("TCS share price is 12399 9999999")
+<_sre.SRE_Match object; span=(22, 24), match='99'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("[0-9]+") 
+>>> p.search("office69 share price is 123")
+<_sre.SRE_Match object; span=(6, 8), match='69'>
+>>> p = re.compile(" [0-9]+") 
+>>> p.search("office69 share price is 123")
+<_sre.SRE_Match object; span=(23, 27), match=' 123'>
+>>> p.search("123 share price is 123")
+<_sre.SRE_Match object; span=(18, 22), match=' 123'>
+>>> p.search(" 123 share price is 123")
+<_sre.SRE_Match object; span=(0, 4), match=' 123'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("is [0-9]+") 
+>>> p.search(" 123 share price is 123")
+<_sre.SRE_Match object; span=(17, 23), match='is 123'>
+>>> p.search("yahoo  share price is 54857")
+<_sre.SRE_Match object; span=(19, 27), match='is 54857'>
+>>> p.search("yahoo  share price is 54857")
+<_sre.SRE_Match object; span=(19, 27), match='is 54857'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("is ([0-9]+)") 
+>>> p.search("yahoo  share price is 54857")
+<_sre.SRE_Match object; span=(19, 27), match='is 54857'>
+>>> 
+>>> 
+>>> r = p.search("yahoo  share price is 54857")
+>>> r.group()
+'is 54857'
+>>> r.groups()
+('54857',)
+>>> print(r)
+<_sre.SRE_Match object; span=(19, 27), match='is 54857'>
+>>> dir(r)
+['__class__', '__copy__', '__deepcopy__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'end', 'endpos', 'expand', 'group', 'groupdict', 'groups', 'lastgroup', 'lastindex', 'pos', 're', 'regs', 'span', 'start', 'string']
+>>> r.start()
+19
+>>> r.string
+'yahoo  share price is 54857'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("is ([0-9]+)") 
+>>> r = p.search("yahoo  share price is 54857")
+>>> r.groups()
+('54857',)
+>>> 
+>>> 
+>>> r = p.search("yahoo  share price 54857")
+>>> r
+>>> p = re.compile("price (is )?([0-9]+)") 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> "TCS price is 123"
+'TCS price is 123'
+>>> "TCS price 123"
+'TCS price 123'
+>>> "is "
+'is '
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> "TCS price is 123"
+KeyboardInterrupt
+>>> 
+>>> 
+>>> p  = re.compile("price (is )?[0-9]+")
+>>> p  = re.compile("price (is )?([0-9]+)")
+>>> 
+>>> 
+>>> p.search(
+... 
+KeyboardInterrupt
+>>> p.search("TCS price is 123")
+<_sre.SRE_Match object; span=(4, 16), match='price is 123'>
+>>> r = p.search("TCS price is 123")
+>>> re.groups()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 're' has no attribute 'groups'
+>>> p.groups()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>> r.groups()
+('is ', '123')
+>>> p  = re.compile("price (:?is )?([0-9]+)")
+>>> r = p.search("TCS price is 123")
+>>> r.groups()
+('is ', '123')
+>>> p  = re.compile("price (?:is )?([0-9]+)")
+>>> r = p.search("TCS price is 123")
+>>> r.groups()
+('123',)
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> r = p.search("TCS price is 123")
+>>> r.groups()
+('123',)
+>>> r = p.search("TCS price 123")
+>>> r.groups()
+('123',)
+>>> r = p.search("TCS price                           123")
+>>> r = p.search("TCS price 123")
+>>> r
+<_sre.SRE_Match object; span=(4, 13), match='price 123'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> r = p.search("TCS price                           123")
+>>> 
+>>> 
+>>> r
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p  = re.compile("price +(?:is )?([0-9]+)")
+>>> 
+>>> 
+>>> 
+>>> r = p.search("TCS price                           123")
+>>> r
+<_sre.SRE_Match object; span=(4, 39), match='price                           123'>
+>>> r.groups()
+('123',)
+>>> 
+>>> 
+>>> 
+>>> 
+>>>                                                                                                                                                                                   
+KeyboardInterrupt
+>>> 
+>>> 
+>>> 
+>>> 
+>>> r = p.search("T*")
+>>> 
+>>> 
+>>> 
+>>> r
+KeyboardInterrupt
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("T*")
+>>> 
+>>> p.search("Harshil Patel")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> 
+>>> 
+>>> 
+>>> p.search("Harshil PatelT")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> p.search("Harshil PatelTT")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("T*")
+>>> p.search("T")
+<_sre.SRE_Match object; span=(0, 1), match='T'>
+>>> p.search("TT")
+<_sre.SRE_Match object; span=(0, 2), match='TT'>
+>>> p.search("harhilTT")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> p.search("harhil TT")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> p.search("aTT")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> p.search("aTTa")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> p.search("TTa")
+<_sre.SRE_Match object; span=(0, 2), match='TT'>
+>>> p.match("TTa")
+<_sre.SRE_Match object; span=(0, 2), match='TT'>
+>>> p.match("aTTa")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> p.match("TTa")
+<_sre.SRE_Match object; span=(0, 2), match='TT'>
+>>> p.match("asdfa f TTa")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> p = re.compile("T*")
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("T*")
+>>> 
+>>> 
+>>> 
+>>> p.match("")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> p.match("T")
+<_sre.SRE_Match object; span=(0, 1), match='T'>
+>>> p.match("TT")
+<_sre.SRE_Match object; span=(0, 2), match='TT'>
+>>> p.match("TTT")
+<_sre.SRE_Match object; span=(0, 3), match='TTT'>
+>>> p.match("harshilTTT")
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> p = re.compile("*T*")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.6/re.py", line 233, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.6/re.py", line 301, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.6/sre_compile.py", line 562, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.6/sre_parse.py", line 855, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.6/sre_parse.py", line 416, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.6/sre_parse.py", line 616, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: nothing to repeat at position 0
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile(".*T*")
+>>> 
+>>> 
+>>> 
+>>> p.match("harshilTTT")
+<_sre.SRE_Match object; span=(0, 10), match='harshilTTT'>
+>>> 
+>>> 
+>>> p = re.compile("harshil*")
+>>> 
+>>> p.search("harshi")
+<_sre.SRE_Match object; span=(0, 6), match='harshi'>
+>>> p.search("harshil")
+<_sre.SRE_Match object; span=(0, 7), match='harshil'>
+>>> p.search("harshillllllllll")
+<_sre.SRE_Match object; span=(0, 16), match='harshillllllllll'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p.search("T*")
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile(".*T*")
+>>> p.search("harshil")
+<_sre.SRE_Match object; span=(0, 7), match='harshil'>
+>>> p.search("harshilT")
+<_sre.SRE_Match object; span=(0, 8), match='harshilT'>
+>>> p.search("harshilTTTTTTTTTTTTTTTTTTTTT")
+<_sre.SRE_Match object; span=(0, 28), match='harshilTTTTTTTTTTTTTTTTTTTTT'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("T{1,4}")
+>>> 
+>>> 
+>>> p.search("T")
+<_sre.SRE_Match object; span=(0, 1), match='T'>
+>>> p.search("TTTT")
+<_sre.SRE_Match object; span=(0, 4), match='TTTT'>
+>>> p.search("TTTTT")
+<_sre.SRE_Match object; span=(0, 4), match='TTTT'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> ip = "192.186.1.1"
+>>> 
+>>> 
+>>> phone="9601529251"
+>>> 
+>>> 
+>>> p = re.compile("[0-9]+")
+>>> 
+>>> p.search("9601529251")
+<_sre.SRE_Match object; span=(0, 10), match='9601529251'>
+>>> p.search("96015292513087123890758912037509123")
+<_sre.SRE_Match object; span=(0, 35), match='96015292513087123890758912037509123'>
+>>> p = re.compile("[0-9]{10,10}")
+>>> p.search("96015292513087123890758912037509123")
+<_sre.SRE_Match object; span=(0, 10), match='9601529251'>
+>>> p = re.compile("[0-9]{10}")
+>>> p.search("96015292513087123890758912037509123")
+<_sre.SRE_Match object; span=(0, 10), match='9601529251'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("[0-9]{10}")
+>>> 
+>>> 
+>>> 
+>>> p.search("96015292513087123890758912037509123")
+<_sre.SRE_Match object; span=(0, 10), match='9601529251'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("harshil")
+>>> p.search("I am harshil")
+<_sre.SRE_Match object; span=(5, 12), match='harshil'>
+>>> p = re.compile("^harshil")
+>>> 
+>>> 
+>>> p.search("I am harshil")
+>>> p.search("harshil,I am harshil")
+<_sre.SRE_Match object; span=(0, 7), match='harshil'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("harshil$")
+>>> 
+>>> 
+>>> 
+>>> p.search("harshil,I am harshil")
+<_sre.SRE_Match object; span=(13, 20), match='harshil'>
+>>> p.search("harshil,I am harshilo")
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("^harshil$")
+>>> p.search("harshil,I am harshilo")
+>>> p.search("harshil")
+<_sre.SRE_Match object; span=(0, 7), match='harshil'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("^harshil.*harshil$")
+>>> p = re.compile("^harshil harshil$")
+>>> p.search("harshil harshil")
+<_sre.SRE_Match object; span=(0, 15), match='harshil harshil'>
+>>> p.search("harshil  harshil")
+>>> p.search("harshil  harshil")
+>>> 
+>>> p = re.compile("^harshil harshil$")
+>>> 
+>>> 
+>>> 
+>>> p.search("harshil harshil")
+<_sre.SRE_Match object; span=(0, 15), match='harshil harshil'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p.search("harshil sdhlkahsdflhadsfhlashdfahdfhashfkj hasuit o yewtshdt harshil")
+\>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("^harshil.*harshil$")
+>>> p.search("harshil sdhlkahsdflhadsfhlashdfahdfhashfkj hasuit o yewtshdt harshil")
+<_sre.SRE_Match object; span=(0, 68), match='harshil sdhlkahsdflhadsfhlashdfahdfhashfkj hasuit>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("^[0-9]{10]$")
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("^[0-9]{10}$")
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p.search("9601529251")
+<_sre.SRE_Match object; span=(0, 10), match='9601529251'>
+>>> p.search("960152921")
+>>> p.search("96015292221")
+>>> p.search("aaaaaaaa")
+>>> p.search("aaaaaaaaaa")
+>>> 
+>>> 
+>>> 
+>>> a
+'TCS share price is 2211'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p = "9601529251"
+>>> 
+>>> 
+>>> if len(p) == 10 and p.isdigit():
+...    print("ok")
+... 
+ok
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("^[0-9]{10}$")
+>>> 
+>>> 
+>>> 
+>>> 
+>>> p.search("960152925")
+>>> p.search("9601529251")
+<_sre.SRE_Match object; span=(0, 10), match='9601529251'>
+>>> p.search("9601529251adsfkadsfhasdfhasdf")
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> ip = "192.168.10.1"
+>>> 
+>>> 
+>>> 
+>>> p = re.compile("^((2[0-5][
+KeyboardInterrupt
+>>> 
+>>> 
+>>> exit()
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ from matplotlib import pyplot as plt ^C
+harshil@harshil-Lenovo-G50-80:~/kasyap_python$ 
+

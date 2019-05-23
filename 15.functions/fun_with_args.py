@@ -1,0 +1,10 @@
+Python 3.4.2 (v3.4.2:ab2c023a9432, Oct  6 2014, 22:16:31) [MSC v.1600 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+>>> def double(n):
+	"double integer value"
+	return n * 2
+
+>>> double(4)
+8
+>>> 
